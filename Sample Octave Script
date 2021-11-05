@@ -10,6 +10,8 @@ for i = 1:length(diameter)
     high_pressure = pressure * 2
   elseif pressure > 2 & pressure < 10
     high_pressure = pressure * 1.7
+  elseif pressure > 10 & pressure < 15
+    high_pressure = pressure * 1.2
   end
   
   force(i) = diameter(i) ^ 2 * pi * high_pressure / 4
