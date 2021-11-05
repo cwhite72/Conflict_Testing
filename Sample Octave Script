@@ -1,0 +1,17 @@
+%defining variables
+
+diameter = [20, 40, 50, 70, 90];
+pressure = 4;
+pitch = 4;
+cc = 0.5;
+
+for i = 1:length(diameter)
+  if pressure < 2
+    high_pressure = pressure * 2
+  elseif pressure > 2 & pressure < 10
+    high_pressure = pressure * 1.7
+  end
+  
+  force(i) = diameter(i) ^ 2 * pi * high_pressure / 4
+  
+end
