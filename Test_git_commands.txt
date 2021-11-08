@@ -9,3 +9,6 @@ git fetch origin
 git push origin master
 
 git branch -m master main
+
+other-user change
+git checkout -b new_branch_name
