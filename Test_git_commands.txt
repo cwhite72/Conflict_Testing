@@ -5,6 +5,7 @@ git remote add chosen_repo_name repo_web_address
 git pull origin master
 git add .
 git commit -m "commit message"
+git fetch origin
 git push origin master
 
 git branch -m master main
