@@ -1,0 +1,8 @@
+git commands 
+
+git init
+git remote add chosen_repo_name repo_web_address
+git pull origin master
+git add .
+git commit -m "commit message"
+git push origin master
